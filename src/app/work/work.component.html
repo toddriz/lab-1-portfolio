@@ -1,0 +1,19 @@
+<h2>Work Experience</h2>
+
+<div class="job-info" *ngFor="let job of jobs">
+    <img width="70px" height="53px" [src]=job.logoUrl>
+    <div class="job-details">
+        <div class="job-details-title">
+            {{job.title}}
+        </div>
+        <div class="job-details-company">
+            {{job.company}}
+        </div>
+        <div class="job-details-date">
+            {{job.startDate}} - {{job.endDate}}
+        </div>
+        <div class="job-details-location">
+            {{job.location}}
+        </div>
+    </div>
+</div>

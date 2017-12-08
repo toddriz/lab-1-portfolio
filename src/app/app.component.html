@@ -1,0 +1,11 @@
+<md-card class="header-card">
+    <nav md-tab-nav-bar>
+        <a md-tab-link *ngFor="let link of navLinks" (click)="changeHeader()" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+            {{link.label | titlecase}}
+        </a>
+    </nav>
+    <!-- <md-toolbar [ngClass]="changeHeader()">{{toolbarTitle}}</md-toolbar> -->
+</md-card>
+<md-card class="content-card">
+    <router-outlet></router-outlet>
+</md-card>

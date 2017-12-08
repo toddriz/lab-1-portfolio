@@ -1,0 +1,15 @@
+@import '../../styles.scss';
+.app-about {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+
+    .about-grid {
+        margin: 4px 0px;
+
+        .grid-tile {
+            @include ellipsis;
+            text-align: center;
+        }
+    }
+}

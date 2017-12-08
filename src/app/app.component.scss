@@ -1,0 +1,36 @@
+@import '../styles.scss';
+
+.header-card {
+    color: $color-black;
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+.content-card {
+    height: 100%;
+}
+
+.mat-tab-nav-bar {
+    border-bottom: none;
+}
+
+
+.lightgray {
+    background-color: $color-lightgray;
+}
+
+.blue {
+    background-color: $color-blue;
+}
+
+.red {
+    background-color: $color-red;
+}
+
+.yellow {
+    background-color: $color-yellow;
+}
+
+.green {
+    background-color: $color-green;
+}

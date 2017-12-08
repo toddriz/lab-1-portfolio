@@ -1,0 +1,11 @@
+<div class="app-about">
+    <md-grid-list class="about-grid" cols="4" rowHeight="100px" [gutterSize]="4">
+        <md-grid-tile [class.mat-elevation-z6]="i === currentTileIndex" (mouseover)="setCurrentTile(i)" class="grid-tile mat-elevation-z3"
+            *ngFor="let tile of tiles; let i = index"
+            [colspan]="tile.cols"
+            [rowspan]="tile.rows"
+            [style.background]="tile.color">
+          {{tile.text}}
+        </md-grid-tile>
+      </md-grid-list>
+</div>

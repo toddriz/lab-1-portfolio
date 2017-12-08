@@ -1,0 +1,40 @@
+.job-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    img {
+        padding-top: 16px;
+    }
+
+   .job-details {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       padding-left: 24px;
+       margin-bottom: 16px;
+
+       .job-details-title {
+           display: flex;
+           font-size: 18px;
+           font-weight: bold;
+       }
+
+       .job-details-company {
+            display: flex;
+            font-weight: bold;
+       }
+
+       .job-details-date {
+            display: flex;
+
+       }
+
+       .job-details-location {
+            display: flex;
+       }
+
+   }
+
+
+}

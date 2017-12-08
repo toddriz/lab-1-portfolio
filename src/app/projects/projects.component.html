@@ -1,0 +1,9 @@
+<div>
+    <h2>Current Projects</h2>
+    <md-list>
+        <md-list-item *ngFor="let project of projects">
+          <h4 md-line><a [href]=project.link>{{project.name}}</a></h4>
+          <p md-line> {{project.description}} </p>
+        </md-list-item>
+      </md-list>
+</div>
